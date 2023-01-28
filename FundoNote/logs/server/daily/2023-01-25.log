@@ -1,0 +1,12 @@
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-25T03:13:42.546Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-25T03:22:17.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T10:38:49.534Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T10:39:00.139Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:19:45.516Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:19:50.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:54:47.000Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:54:53.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T12:18:52.772Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:18:56.198Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T12:43:13.972Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:43:17.657Z"}

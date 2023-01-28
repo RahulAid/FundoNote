@@ -1,0 +1,79 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:40:29.065Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:40:32.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:41:44.880Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:41:47.652Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ name: 'Rahul' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:42:16.749Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lname" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:51:25.141Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Credentials
+    at _callee3$ (C:\Users\RAHUL KUMAR\projjjject\awesome-project\src\services\/user.service.js:30:11)
+    at tryCatch (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:57:29.582Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:00:45.157Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:00:48.046Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:08:12.818Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:08:15.350Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:17:40.098Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:17:42.863Z"}
+error: 
+    status - 500 
+    message - Error: Email ID already registered
+    at _callee2$ (C:\Users\RAHUL KUMAR\projjjject\awesome-project\src\services\/user.service.js:17:11)
+    at tryCatch (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:18:26.137Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:19:27.823Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:19:32.236Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:20:04.177Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:32:34.682Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:33:12.372Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:50:23.975Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:54:55.707Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:55:39.996Z"}
+error: 
+    status - 500 
+    message - Error: Email ID already registered
+    at _callee2$ (C:\Users\RAHUL KUMAR\projjjject\awesome-project\src\services\/user.service.js:17:11)
+    at tryCatch (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\RAHUL KUMAR\projjjject\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:58:05.895Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:59:24.723Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:00:21.939Z"}
