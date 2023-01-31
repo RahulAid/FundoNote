@@ -21,7 +21,8 @@ export const login =async(req,res,next) => {
     const data = await UserService.login(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      message:data
+      token:data,
+      message:"Logged in Successfully"
     });
   } catch (error) {
     next(error);

@@ -1,5 +1,7 @@
 import User from '../models/user.model';
 const bcrypt = require('bcrypt')
+//var jwt = require('jsonwebtoken');
+import jwt from 'jsonwebtoken';
 
 //get all users
 export const getAllUsers = async () => {
@@ -30,11 +32,17 @@ export const login = async (body) => {
     if (!userdata) {
       throw new Error("Invalid Email ID entered")
     }
+    
     const validPassword = await bcrypt.compare(body.password,userdata.password);
     if(!validPassword){
       throw new Error("Invalid Password")
     }
-    return userdata;
+    else{
+      let token = jwt.sign({ email: userdata.email }, process.env.SECRET_KEY);
+      return token;
+      //return userdata;
+    }
+      return userdata;
   }
   catch (error) {
     throw new Error(error)
