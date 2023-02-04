@@ -71,3 +71,24 @@ export const archiveNote = async (_id, userId) => {
 };
 
 
+//Send to Trash
+export const trashNote = async (_id, userId) => {
+  try {
+    const data = await Note.findByIdAndUpdate(
+      {
+        _id, userId: userId
+      },
+      {
+        trash: true
+      },
+      {
+        new: true
+      });
+    return data;
+  } catch (err) {
+    throw new Error(err)
+  }
+};
+
+
+
