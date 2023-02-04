@@ -1,4 +1,6 @@
-import Note from '../models/note.model'
+//import id from '@hapi/joi/lib/base';
+import Note from '../models/note.model';
+
 
 export const createNote = async (note) => {
   try {
@@ -46,3 +48,26 @@ export const updateNote = async (id, description) => {
     throw new Error(err)
   }
 }
+
+
+
+//Send to Archieve
+export const archiveNote = async (_id, userId) => {
+  try {
+    const data = await Note.findByIdAndUpdate(
+      {
+        _id, userId: userId
+      },
+      {
+        archive: true
+      },
+      {
+        new: true
+      });
+    return data;
+  } catch (err) {
+    throw new Error(err)
+  }
+};
+
+

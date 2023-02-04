@@ -4,6 +4,7 @@ import * as UserService from '../services/user.service';
 
 export const userRegistration = async (req, res, next) => {
   try {
+    console.log("aaaaaaaaaaaaaa ",req.body);
     const data = await UserService.userRegistration(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,

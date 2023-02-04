@@ -1,0 +1,14 @@
+info: ::1 - - [03/Feb/2023:19:08:37 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [03/Feb/2023:19:10:01 +0000] "PUT /api/v1/notes/63d8020396d6f108505f14b/archive HTTP/1.1" 400 50 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [03/Feb/2023:19:13:43 +0000] "POST /api/v1/notes/ HTTP/1.1" 200 271 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [03/Feb/2023:19:14:26 +0000] "PUT /api/v1/notes/63dd5ce71dccc2fca991fc1d/archive HTTP/1.1" 202 274 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [03/Feb/2023:19:20:37 +0000] "PUT /api/v1/notes/63dd5ce71dccc2fca991fc1d/archive HTTP/1.1" 202 274 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [03/Feb/2023:19:23:44 +0000] "PUT /api/v1/notes/63dd5ce71dccc2fca991fc1d/archive HTTP/1.1" 202 274 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [03/Feb/2023:19:31:51 +0000] "PUT /api/v1/notes/63dd5ce71dccc2fca991fc1d/archive HTTP/1.1" 202 273 "-" "PostmanRuntime/7.30.0"
+

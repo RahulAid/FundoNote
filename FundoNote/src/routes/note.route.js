@@ -1,23 +1,31 @@
-import express from 'express'
-import * as NoteController from '../controllers/note.controller'
-import { newNoteValidator } from '../validators/note.validator'
-import { userAuth } from '../middlewares/auth.middleware'
+import express from 'express';
+import * as noteController from '../controllers/note.controller';
+import { newNoteValidator } from '../validators/note.validator';
+import { userAuth } from '../middlewares/auth.middleware';
 
-const router = express.Router()
+const router = express.Router();
 
-//Create a Note
-router.post('/', newNoteValidator,userAuth, NoteController.createNote)
 
-//Read All Notes
-router.get('/',userAuth,NoteController.getAllNotes)
+//create a new note
+router.post('', newNoteValidator, userAuth, noteController.createNote);
 
-//Read Note using ID
-router.get('/:id',userAuth,NoteController.findNote)
+// update a note by its id
+router.put('/:_id', userAuth, noteController.updateNote);
 
-//Update Note using ID
-router.put('/:id',userAuth, NoteController.updateNote)
+// get all notes
+router.get('', userAuth, noteController.getAllNotes);
 
-//Delete Node using ID
-router.delete('/:id',userAuth,NoteController.deleteNote)
+// get a note by id
+router.get('/:_id', userAuth, noteController.findNote);
 
-export default router
+// delete note by id
+router.delete('/:_id', userAuth, noteController.deleteNote);
+
+//route to archieve a note
+router.put('/:_id/archive', userAuth, noteController.archiveNote);
+
+export default router;
+
+
+
+

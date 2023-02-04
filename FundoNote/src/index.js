@@ -29,10 +29,15 @@ app.use(morgan('combined', { stream: logStream }));
 
 database();
 
+//app.use('/', () => routes);
+//app.use(app.router);
+//routes.initialize(app);
 app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);
 app.use(genericErrorHandler);
 app.use(notFound);
+//app.use(app.router);
+//routes.initialize(app);
 
 app.listen(port, () => {
   logger.info(`Server started at ${host}:${port}/api/${api_version}/`);
