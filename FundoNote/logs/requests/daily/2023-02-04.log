@@ -12,3 +12,5 @@ info: ::1 - - [03/Feb/2023:19:23:44 +0000] "PUT /api/v1/notes/63dd5ce71dccc2fca9
 
 info: ::1 - - [03/Feb/2023:19:31:51 +0000] "PUT /api/v1/notes/63dd5ce71dccc2fca991fc1d/archive HTTP/1.1" 202 273 "-" "PostmanRuntime/7.30.0"
 
+info: ::1 - - [04/Feb/2023:01:38:38 +0000] "PUT /api/v1/notes/63dd5ce71dccc2fca991fc1d/trash HTTP/1.1" 202 271 "-" "PostmanRuntime/7.30.1"
+

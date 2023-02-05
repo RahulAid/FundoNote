@@ -75,7 +75,7 @@ export const createNote = async (req, res, next) => {
   }
 
 
-
+  //Controller to Archive a Note
   export const archiveNote = async (req, res) => {
     try {
       const data = await NoteService.archiveNote(req.params._id);
@@ -83,6 +83,24 @@ export const createNote = async (req, res, next) => {
         code: HttpStatus.ACCEPTED,
         data: data,
         message: 'note archived successfully'
+      });
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: 'enter the correct note id'
+      });
+    }
+  };
+
+
+  //Controller to Trash a Note
+  export const trashNote = async (req, res) => {
+    try {
+      const data = await NoteService.trashNote(req.params._id);
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data,
+        message: 'note trashed successfully'
       });
     } catch (error) {
       res.status(HttpStatus.BAD_REQUEST).json({
