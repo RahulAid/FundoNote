@@ -47,3 +47,20 @@ export const getAllUsers = async (req, res, next) => {
     next(error);
   }
 };
+
+
+export const Forgotpwd = async (req, res, next) => {
+  try {
+    const data = await UserService.Forgotpwd(req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'token has been sent in Email ID'
+    })
+  }
+  catch (error) {
+    next(error);
+  }
+};
+
+

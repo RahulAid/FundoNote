@@ -24,6 +24,9 @@ router.delete('/:_id', userAuth, noteController.deleteNote);
 //route to archieve a note
 router.put('/:_id/archive', userAuth, noteController.archiveNote);
 
+//route to trash a note
+router.put('/:_id/trash', userAuth, noteController.trashNote);
+
 export default router;
 
 

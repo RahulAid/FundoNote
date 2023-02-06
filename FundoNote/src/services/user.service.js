@@ -2,6 +2,7 @@ import User from '../models/user.model';
 const bcrypt = require('bcrypt')
 //var jwt = require('jsonwebtoken');
 import jwt from 'jsonwebtoken';
+import { sendmail } from '../utils/user.util.mjs';
 
 //get all users
 export const getAllUsers = async () => {
@@ -32,20 +33,46 @@ export const login = async (body) => {
     if (!userdata) {
       throw new Error("Invalid Email ID entered")
     }
-    
-    const validPassword = await bcrypt.compare(body.password,userdata.password);
-    if(!validPassword){
+
+    const validPassword = await bcrypt.compare(body.password, userdata.password);
+    if (!validPassword) {
       throw new Error("Invalid Password")
     }
-    else{
+    else {
       let token = jwt.sign({ email: userdata.email }, process.env.SECRET_KEY);
       return token;
       //return userdata;
     }
-      return userdata;
+    return userdata;
   }
   catch (error) {
     throw new Error(error)
   }
 
 };
+
+
+//for forgot password
+export const Forgotpwd = async (body) => {
+  try {
+    const user = await User.findOne({ 
+      email: body.email 
+    });
+    if (!user) {
+      throw new Error("Invalid Email ID");
+    }
+    else
+      var token = jwt.sign(user.email, process.env.FORGET_SECRET_KEY);
+    const data = await sendmail(user.email,token)
+
+    return {
+      message: `Token has been sent`,
+      data
+    }
+  }
+  catch (error) {
+    throw new Error(error)
+  }
+};
+
+
