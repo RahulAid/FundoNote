@@ -2,7 +2,7 @@ import User from '../models/user.model';
 const bcrypt = require('bcrypt')
 //var jwt = require('jsonwebtoken');
 import jwt from 'jsonwebtoken';
-import { sendmail } from '../utils/user.util.mjs';
+import { sendmail } from '../utils/user.util.js';
 
 //get all users
 export const getAllUsers = async () => {
