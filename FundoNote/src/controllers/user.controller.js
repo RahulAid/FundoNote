@@ -64,3 +64,23 @@ export const Forgotpwd = async (req, res, next) => {
 };
 
 
+//Controller for reset password
+export const pwdReset = async (req, res, next) => {
+  try
+  {
+    const data = await UserService.pwdReset(req.params.token, req.body);
+    
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Password is Updated.'
+    });
+
+  } 
+  catch (error)
+  {
+    next(error);
+  }
+};
+
+

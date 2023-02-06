@@ -76,3 +76,24 @@ export const Forgotpwd = async (body) => {
 };
 
 
+//For reset password
+export const pwdReset = async (token, body) =>
+ {
+   const salt = 10;
+  const pwdHash = await bcrypt.hash(body.password,salt);
+  body.password = pwdHash; 
+  
+  const data = User.findOneAndUpdate(
+    {
+      email: body.email
+    },
+    {
+      password: body.password
+    },
+    {
+      new: true
+    })
+  return data;
+};
+
+
