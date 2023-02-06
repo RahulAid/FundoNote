@@ -30,7 +30,7 @@ try{
         to: Email,
         subject: 'Forgot Password',
         text: 'You can Reset the Password',
-       html: `<h1>Hello,<br><br>Click on given link to reset your password!</h1><br><h1>Link:><a href="http://localhost:${5000}/${token}">click here</a></h1>`
+       html: `<h1>Hello,<br><br>Click on given link to reset your password!</h1><br><h1>Link:><a href="http://localhost:${4000}/${token}">click here</a></h1>`
     };
 
     const Result = await transport.sendMail(mailoption)
