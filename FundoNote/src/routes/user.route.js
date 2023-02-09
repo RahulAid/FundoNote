@@ -19,7 +19,7 @@ router.post('/login',  userController.login);
 router.post('/forgotPassword',userController.Forgotpwd);
 
 //route to reset Password
-router.put('/reset/:token',  forgetuserAuth , userController.pwdReset);
+//router.put('/reset/:token',  forgetuserAuth , userController.pwdReset);
 
 
 
