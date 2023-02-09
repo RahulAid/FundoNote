@@ -28,3 +28,24 @@ export const userAuth = async (req, res, next) => {
     next(error);
   }
 };
+
+
+export const forgetuserAuth = async (req, res, next) => {
+  try {
+    let bearerToken = req.params.token
+    if (!bearerToken)
+      throw {
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Authorization token is required'
+      };
+    //bearerToken = bearerToken.split(' ')[1];
+
+    const user = await jwt.verify(bearerToken, process.env.FORGET_SECRET_KEY);
+    req.body.email = user.email
+     //res.locals.user = user;
+     //res.locals.token = bearerToken;
+    next();
+  } catch (error) {
+    next(error);
+  }
+};

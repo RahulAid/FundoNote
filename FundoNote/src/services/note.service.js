@@ -90,5 +90,3 @@ export const trashNote = async (_id, userId) => {
   }
 };
 
-
-

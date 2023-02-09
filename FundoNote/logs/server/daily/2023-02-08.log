@@ -1,0 +1,755 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:16:59.543Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:17:01.866Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:22:38.678Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:22:40.903Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:23:54.058Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:23:56.308Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:24:21.855Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:24:32.443Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:24:34.639Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\mongoose\lib\query.js:4510:21
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T04:26:53.269Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\mongoose\lib\query.js:4510:21
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T04:33:03.999Z"}
+error: 
+    status - 500 
+    message - Error: User already exist
+    at _callee2$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:23:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T04:34:03.981Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:37:40.471Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:37:42.663Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:38:14.744Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:38:16.932Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:38:49.028Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:38:51.301Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:39:52.692Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:39:54.890Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:40:20.357Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:40:22.508Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:40:44.620Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:40:46.855Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:41:13.549Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:41:15.677Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:43:06.401Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:43:08.526Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T04:46:41.484Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T04:46:43.789Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T04:46:45.350Z"}
+error: 
+    status - 500 
+    message - Error: User already exist
+    at _callee2$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:23:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T04:46:45.602Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T04:46:45.624Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee3$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:49:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T04:46:45.967Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email ID entered
+    at _callee3$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:49:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T04:46:46.267Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee3$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:49:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T04:46:46.626Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email ID entered
+    at _callee3$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:49:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T04:46:46.884Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\fundonotess_feb\FundoNote\FundoNote\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (D:\fundonotess_feb\FundoNote\FundoNote\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:144:13)
+    at newNoteValidator (D:\fundonotess_feb\FundoNote\FundoNote\src\validators\/note.validator.js:14:9)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\raw-body\index.js:231:16)
+    at done (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T04:46:46.945Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is not allowed to be empty 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T04:46:47.090Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\fundonotess_feb\FundoNote\FundoNote\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (D:\fundonotess_feb\FundoNote\FundoNote\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\cors\lib\index.js:188:7)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\cors\lib\index.js:214:15)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at query (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:175:3)
+    at Function.handle (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\application.js:181:10)
+    at Server.app (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:513:28)
+    at parserOnIncoming (node:_http_server:1068:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T04:46:47.152Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\fundonotess_feb\FundoNote\FundoNote\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (D:\fundonotess_feb\FundoNote\FundoNote\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:284:15
+    at param (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\cors\lib\index.js:188:7)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\cors\lib\index.js:214:15)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at query (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:328:13)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:175:3)
+    at Function.handle (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\application.js:181:10)
+    at Server.app (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:513:28)
+    at parserOnIncoming (node:_http_server:1068:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T04:46:47.295Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T05:01:06.706Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T05:01:09.174Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T05:01:11.156Z"}
+error: 
+    status - 500 
+    message - Error: User already exist
+    at _callee2$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:23:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T05:01:11.541Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T05:01:11.618Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email ID entered
+    at _callee3$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:49:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T05:01:12.420Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee3$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:49:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T05:01:12.805Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email ID entered
+    at _callee3$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:49:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T05:01:13.075Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T05:24:59.276Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T05:25:01.904Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T05:25:03.431Z"}
+error: 
+    status - 500 
+    message - Error: User already exist
+    at _callee2$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:23:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T05:25:03.743Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T05:25:03.832Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email ID entered
+    at _callee3$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:49:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T05:25:04.601Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee3$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:49:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T05:25:04.986Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email ID entered
+    at _callee3$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:49:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-08T05:25:05.264Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T11:27:26.881Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T11:27:33.002Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T11:34:18.324Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T11:34:20.616Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:35:26.762Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:35:29.568Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:35:54.564Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:36:03.067Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:36:08.051Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:36:11.837Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:36:29.138Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:36:40.568Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:37:00.003Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee3$ (D:\fundonotess_feb\FundoNote\FundoNote\src\services\/user.service.js:49:11)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:37:23.426Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-08T11:39:28.180Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T11:39:30.468Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-08T11:43:44.939Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-08T11:44:15.864Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\fundonotess_feb\FundoNote\FundoNote\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (D:\fundonotess_feb\FundoNote\FundoNote\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:45:37.967Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\fundonotess_feb\FundoNote\FundoNote\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (D:\fundonotess_feb\FundoNote\FundoNote\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:46:10.329Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\fundonotess_feb\FundoNote\FundoNote\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (D:\fundonotess_feb\FundoNote\FundoNote\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\layer.js:95:5)
+    at D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-08T11:54:20.131Z"}

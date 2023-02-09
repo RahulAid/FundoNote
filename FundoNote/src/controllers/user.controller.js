@@ -47,3 +47,40 @@ export const getAllUsers = async (req, res, next) => {
     next(error);
   }
 };
+
+
+export const Forgotpwd = async (req, res, next) => {
+  try {
+    const data = await UserService.Forgotpwd(req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'token has been sent in Email ID'
+    })
+  }
+  catch (error) {
+    next(error);
+  }
+};
+
+
+//Controller for reset password
+export const pwdReset = async (req, res, next) => {
+  try
+  {
+    const data = await UserService.pwdReset(req.params.token, req.body);
+    
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Password is Updated.'
+    });
+
+  } 
+  catch (error)
+  {
+    next(error);
+  }
+};
+
+
