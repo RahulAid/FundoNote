@@ -1,9 +1,10 @@
 //import id from '@hapi/joi/lib/base';
 import Note from '../models/note.model';
-
+import { client } from '../config/redis';
 
 export const createNote = async (note) => {
   try {
+    await client.del('getalldata');
     const data = await Note.create(note)
     return data
   } catch (err) {
@@ -29,10 +30,12 @@ export const findNote = async (id) => {
   }
 }
 
-export const getAllNotes = async () => {
+export const getAllNotes = async (userId) => {
   try {
-    const data = await Note.find()
+    const data = await Note.find({userId : userId})
+    await client.set('getalldata', JSON.stringify(data));
     return data
+
   } catch (err) {
     throw new Error(err)
   }

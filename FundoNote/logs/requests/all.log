@@ -2855,3 +2855,86 @@ info: ::1 - - [08/Feb/2023:12:08:08 +0000] "POST /api/v1/users/login HTTP/1.1" 2
 
 info: ::1 - - [08/Feb/2023:12:09:28 +0000] "GET /api/v1/notes HTTP/1.1" 200 624 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78"
 
+info: ::1 - - [09/Feb/2023:11:27:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 197 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:28:16 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 624 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:28:24 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 624 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:28:26 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 624 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:28:28 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 624 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:28:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 624 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:28:32 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 624 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:33:23 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:33:30 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:33:32 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:33:34 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:33:36 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:33:37 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:42:49 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:42:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:42:55 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:42:57 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:42:59 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:43:01 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:48:05 +0000] "POST /api/v1/users/login HTTP/1.1" 200 197 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:50:25 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:50:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:50:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:51:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\src\/index.js:51:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\fundonotess_feb\FundoNote\FundoNote\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Thu Feb 09 2023 17:25:36 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":141599},"process":{"argv":["node","D:\\fundonotess_feb\\FundoNote\\FundoNote\\src\\index.js"],"cwd":"D:\\fundonotess_feb\\FundoNote\\FundoNote","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19481088,"external":22107271,"heapTotal":205651968,"heapUsed":178932720,"rss":247562240},"pid":29420,"uid":null,"version":"v18.12.1"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1485:16)\n    at listenInCluster (node:net:1533:12)\n    at Server.listen (node:net:1621:7)\n    at Function.listen (D:\\fundonotess_feb\\FundoNote\\FundoNote\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\fundonotess_feb\\FundoNote\\FundoNote\\src\\/index.js:51:5)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\fundonotess_feb\\FundoNote\\FundoNote\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\fundonotess_feb\\FundoNote\\FundoNote\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\fundonotess_feb\\FundoNote\\FundoNote\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1485,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1533,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1621,"method":"listen","native":false},{"column":24,"file":"D:\\fundonotess_feb\\FundoNote\\FundoNote\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\fundonotess_feb\\FundoNote\\FundoNote\\src\\/index.js","function":null,"line":51,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"D:\\fundonotess_feb\\FundoNote\\FundoNote\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\fundonotess_feb\\FundoNote\\FundoNote\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\fundonotess_feb\\FundoNote\\FundoNote\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [09/Feb/2023:11:57:27 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:11:57:33 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:12:02:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 410 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:12:05:16 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 460 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:12:05:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 197 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:12:06:03 +0000] "POST /api/v1/users/login HTTP/1.1" 200 197 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [09/Feb/2023:12:06:18 +0000] "GET /api/v1/notes HTTP/1.1" 200 460 "-" "PostmanRuntime/7.30.1"
+

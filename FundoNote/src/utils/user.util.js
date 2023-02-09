@@ -40,5 +40,5 @@ try{
 }
 }
 
-sendmail().then(Result => console.log("Email Sent.....", Result))
-.catch((error) => console.log(error.message));
+//sendmail().then(Result => console.log("Email Sent.....", Result))
+//.catch((error) => console.log(error.message));

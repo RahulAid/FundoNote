@@ -5,6 +5,8 @@ dotenv.config();
 import swaggerUi from 'swagger-ui-express';
 import swaggerDocument from '../src/swagger/swagger.json'
 
+import redis from './config/redis';
+
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
@@ -34,6 +36,7 @@ app.use(morgan('combined', { stream: logStream }));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 database();
+redis();
 
 //app.use('/', () => routes);
 //app.use(app.router);
