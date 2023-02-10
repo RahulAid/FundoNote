@@ -15,6 +15,7 @@ export const createNote = async (note) => {
 export const deleteNote = async (id) => {
   try {
     const data = await Note.findOneAndDelete({ "_id": id })
+    await client.del('getalldata')
     return data
   } catch (err) {
     throw new Error(err)
@@ -46,6 +47,7 @@ export const updateNote = async (id, description) => {
     const idtoUpdate = { "_id": id }
     const UpdatedDesc = { "description": description }
     const data = await Note.findOneAndUpdate(idtoUpdate, UpdatedDesc)
+    await client.del('getalldata')
     return data
   } catch (err) {
     throw new Error(err)
